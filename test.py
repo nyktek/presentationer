@@ -1,6 +1,2 @@
-
-a = 5
-b = 10
-c = a / b
-
-print(c)
+firstname = input('Skriv in ditt förnamn: ')
+print(f"Hejsan {firstname}")
