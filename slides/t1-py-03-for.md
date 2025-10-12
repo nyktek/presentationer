@@ -263,4 +263,55 @@ Utanför loopen
 
 ---
 
+# Exempel 10
+
+--
+
+## Steg 1
+
+```python [ ]
+for i in range(1, 5):
+    print(i, end=":")
+```
+
+Vad kommer resultatet att bli?
+
+--
+
+```text [ ]
+1: 
+2: 
+3: 
+4:
+```
+
+--
+
+
+## Steg 2
+
+```python [4-7]
+for i in range(1, 5):
+    print(i, end=": ")
+    
+    for j in range(1, 11):
+        p = i * j
+        print(f"{p:3d}", end=" ")
+    
+    print()
+```
+
+Vad kommer resultatet att bli?
+
+--
+
+```text [ ]
+1:   1   2   3   4   5   6   7   8   9  10 
+2:   2   4   6   8  10  12  14  16  18  20 
+3:   3   6   9  12  15  18  21  24  27  30
+4:   4   8  12  16  20  24  28  32  36  40
+```
+
+---
+
 # SLUT!
