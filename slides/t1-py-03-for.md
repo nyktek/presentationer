@@ -55,7 +55,7 @@ Vad kommer resultatet att bli?
 Utanför loopen
 ```
 
-**range(3)** = Noll till tre, dvs fyra varv.
+**range(3)** = Noll till tre, dvs tre varv.
 
 ---
 
